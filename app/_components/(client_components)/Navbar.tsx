@@ -54,7 +54,7 @@ const Navbar = (props: Props) => {
 
         {/* Mobile Sidebar */}
         {isMenuOpen && (
-          <ul className="absolute left-0 top-0 h-screen w-1/2 py-12 px-6 lg:hidden flex flex-col bg-slate-200 gap-6">
+          <ul className="absolute left-0 top-0 h-screen w-3/4 py-12 px-6 lg:hidden flex flex-col bg-slate-200 gap-6">
             <Logo />
             {navLinks.map((link) => (
               <li key={link.text} onClick={handleClick}>
