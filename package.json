@@ -12,6 +12,7 @@
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.16.7",
     "@tailwindcss/typography": "^0.5.10",
+    "@testing-library/react": "^14.0.0",
     "next": "latest",
     "next-sanity": "^5.5.4",
     "react": "latest",
@@ -22,6 +23,7 @@
     "theme-change": "^2.5.0"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.5",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
